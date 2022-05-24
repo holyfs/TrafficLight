@@ -1,0 +1,13 @@
+.cambioDeColor{
+    margin-left: 45%;
+    margin-top: 20px;
+    background-color: rgb(0, 109, 128);
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    
+}
+.cambioDeColor:hover{
+    background-color: blue;
+    color: black;
+}
