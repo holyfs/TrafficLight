@@ -1,14 +1,20 @@
 import React, { useState } from "react";
-import "/workspace/react-hello/src/styles/BotonDeCambio.css";
+import "/workspace/TrafficLight/src/styles/BotonDeCambio.css";
 
 function BotonDeCambio(props) {
 	return (
-		<button
-			onClick={props.onClick}
-			className={props.className}
-			type={props.type}>
-			Change Color
-		</button>
+		<>
+			<div className="boton-heading">
+				You can press any color to start or you can press the
+				<strong>button!</strong>
+			</div>
+			<button
+				onClick={props.onClick}
+				className={props.className}
+				type={props.type}>
+				Change the light
+			</button>
+		</>
 	);
 }
 
